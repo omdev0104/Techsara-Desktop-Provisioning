@@ -132,3 +132,59 @@
 [08:54:19] [INFO] Deployment server reachable.
 [08:54:19] [INFO] Server validation completed.
 [08:55:17] [INFO] Application Closed.
+[09:31:44] [INFO] Configuration Loaded
+[09:31:44] [INFO] Version : 0.2
+[09:31:44] [INFO] Running in DEVELOPMENT MODE
+[09:31:44] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[09:31:44] [INFO] Deployment server reachable.
+[09:31:44] [INFO] Server validation completed.
+[09:34:03] [INFO] Application Closed.
+[11:03:33] [INFO] Configuration Loaded
+[11:03:33] [INFO] Version : 0.2
+[11:03:33] [INFO] Running in DEVELOPMENT MODE
+[11:03:33] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[11:03:33] [INFO] Deployment server reachable.
+[11:03:33] [INFO] Server validation completed.
+[11:04:03] [INFO] Application Closed.
+[11:04:05] [INFO] Configuration Loaded
+[11:04:05] [INFO] Version : 0.2
+[11:04:05] [INFO] Running in DEVELOPMENT MODE
+[11:04:05] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[11:04:05] [INFO] Deployment server reachable.
+[11:04:05] [INFO] Server validation completed.
+[11:04:08] [INFO] Application Closed.
+[11:11:13] [INFO] Configuration Loaded
+[11:11:13] [INFO] Version : 0.2
+[11:11:13] [INFO] Running in DEVELOPMENT MODE
+[11:11:13] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[11:11:13] [INFO] Server validation completed.
+[11:11:18] [INFO] Application Closed.
+[11:11:20] [INFO] Configuration Loaded
+[11:11:20] [INFO] Version : 0.2
+[11:11:20] [INFO] Running in DEVELOPMENT MODE
+[11:11:20] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[11:11:20] [INFO] Server validation completed.
+[11:11:23] [INFO] Application Closed.
+[11:11:38] [INFO] Configuration Loaded
+[11:11:38] [INFO] Version : 0.2
+[11:11:38] [INFO] Running in DEVELOPMENT MODE
+[11:11:38] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[11:12:01] [INFO] Configuration Loaded
+[11:12:01] [INFO] Version : 0.2
+[11:12:01] [INFO] Running in DEVELOPMENT MODE
+[11:12:01] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[11:12:11] [INFO] Configuration Loaded
+[11:12:11] [INFO] Version : 0.2
+[11:12:11] [INFO] Running in DEVELOPMENT MODE
+[11:12:11] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[11:12:13] [ERROR] Deployment Aborted.
+[11:12:22] [INFO] Configuration Loaded
+[11:12:22] [INFO] Version : 0.2
+[11:12:22] [INFO] Running in DEVELOPMENT MODE
+[11:12:22] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[11:12:22] [ERROR] Deployment Aborted.
+[11:12:40] [INFO] Configuration Loaded
+[11:12:40] [INFO] Version : 0.2
+[11:12:40] [INFO] Running in DEVELOPMENT MODE
+[11:12:40] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[11:12:40] [ERROR] Deployment Aborted.
