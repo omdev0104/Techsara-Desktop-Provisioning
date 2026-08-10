@@ -1,0 +1,134 @@
+[08:19:19] [INFO] Applications Loaded
+[08:19:19] [INFO] Found application : Chrome
+[08:19:19] [INFO] Found application : Google Drive
+[08:19:19] [INFO] Found application : Slack
+[08:19:19] [INFO] Found application : Zoom
+[08:21:12] [INFO] Applications Loaded
+[08:21:12] [ERROR] Deployment server unavailable.
+[08:21:12] [ERROR] Deployment aborted because the server is unreachable.
+[08:24:24] [INFO] Configuration Loaded
+[08:24:24] [INFO] Server : \\192.168.9.59\FTP-Server\Driver's
+[08:24:24] [ERROR] Deployment server unavailable.
+[08:24:24] [ERROR] Deployment Aborted.
+[08:32:30] [INFO] Configuration Loaded
+[08:32:30] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[08:32:30] [INFO] Deployment server reachable.
+[08:32:30] [INFO] Applications Loaded
+[08:32:30] [INFO] Preparing Chrome
+[08:32:30] [INFO] Installer located.
+[08:32:30] [INFO] Preparing Google Drive
+[08:32:30] [INFO] Installer located.
+[08:32:30] [INFO] Preparing Slack
+[08:32:30] [INFO] Installer located.
+[08:32:30] [INFO] Preparing Zoom
+[08:32:30] [INFO] Installer located.
+[08:32:30] [INFO] Deployment Finished Successfully
+[08:34:40] [INFO] Configuration Loaded
+[08:34:40] [INFO] Version : 1.0
+[08:34:40] [INFO] Running in DEVELOPMENT MODE
+[08:34:40] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[08:34:41] [INFO] Deployment server reachable.
+[08:34:41] [INFO] Preparing Chrome
+[08:34:41] [INFO] Installer located.
+[08:34:41] [INFO] DEVELOPMENT MODE
+[08:34:41] [INFO] Preparing Google Drive
+[08:34:41] [INFO] Installer located.
+[08:34:41] [INFO] DEVELOPMENT MODE
+[08:34:41] [INFO] Preparing Slack
+[08:34:41] [INFO] Installer located.
+[08:34:41] [INFO] DEVELOPMENT MODE
+[08:34:41] [INFO] Preparing Zoom
+[08:34:41] [INFO] Installer located.
+[08:34:41] [INFO] DEVELOPMENT MODE
+[08:34:41] [INFO] Deployment Finished Successfully
+[08:36:29] [INFO] Configuration Loaded
+[08:36:29] [INFO] Version : 1.0
+[08:36:29] [INFO] Running in DEVELOPMENT MODE
+[08:36:29] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[08:36:29] [INFO] Deployment server reachable.
+[08:36:29] [INFO] Preparing Chrome
+[08:36:29] [INFO] Installer located.
+[08:36:29] [INFO] DEVELOPMENT MODE
+[08:36:29] [INFO] Preparing Google Drive
+[08:36:29] [INFO] Installer located.
+[08:36:29] [INFO] DEVELOPMENT MODE
+[08:36:29] [INFO] Preparing Slack
+[08:36:29] [INFO] Installer located.
+[08:36:29] [INFO] DEVELOPMENT MODE
+[08:36:29] [INFO] Preparing Zoom
+[08:36:29] [INFO] Installer located.
+[08:36:29] [INFO] DEVELOPMENT MODE
+[08:36:29] [INFO] Deployment Finished Successfully
+[08:40:42] [INFO] Configuration Loaded
+[08:40:42] [INFO] Version : 0.2
+[08:40:42] [INFO] Running in DEVELOPMENT MODE
+[08:40:42] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[08:40:42] [INFO] Deployment server reachable.
+[08:40:42] [INFO] Preparing Chrome
+[08:40:42] [INFO] Installer located.
+[08:40:42] [INFO] [DEV] Would install Chrome
+[08:40:42] [INFO] Preparing Google Drive
+[08:40:42] [INFO] Installer located.
+[08:40:42] [INFO] [DEV] Would install Google Drive
+[08:40:42] [INFO] Preparing Slack
+[08:40:42] [INFO] Installer located.
+[08:40:42] [INFO] [DEV] Would install Slack
+[08:40:42] [INFO] Preparing Zoom
+[08:40:42] [INFO] Installer located.
+[08:40:42] [INFO] [DEV] Would install Zoom
+[08:40:42] [INFO] Deployment Finished Successfully
+[08:42:33] [INFO] Configuration Loaded
+[08:42:33] [INFO] Version : 0.2
+[08:42:33] [INFO] Running in DEVELOPMENT MODE
+[08:42:33] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[08:42:33] [INFO] Deployment server reachable.
+[08:42:33] [INFO] Preparing Chrome
+[08:42:33] [INFO] Installer located.
+[08:42:33] [INFO] --------------------------------------------
+[08:42:33] [INFO] Application : Chrome
+[08:42:33] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[08:42:33] [INFO] Mode        : DEVELOPMENT
+[08:42:33] [INFO] Method      : StartProcess
+[08:42:33] [INFO] Arguments   : 
+[08:42:33] [INFO] [DEV] Installation skipped.
+[08:42:33] [INFO] Preparing Google Drive
+[08:42:33] [INFO] Installer located.
+[08:42:33] [INFO] --------------------------------------------
+[08:42:33] [INFO] Application : Google Drive
+[08:42:33] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\GoogleDriveSetup.exe
+[08:42:33] [INFO] Mode        : DEVELOPMENT
+[08:42:33] [INFO] Method      : StartProcess
+[08:42:33] [INFO] Arguments   : 
+[08:42:33] [INFO] [DEV] Installation skipped.
+[08:42:33] [INFO] Preparing Slack
+[08:42:33] [INFO] Installer located.
+[08:42:33] [INFO] --------------------------------------------
+[08:42:33] [INFO] Application : Slack
+[08:42:33] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\Slack.msix
+[08:42:33] [INFO] Mode        : DEVELOPMENT
+[08:42:33] [INFO] Method      : Appx
+[08:42:33] [INFO] Arguments   : 
+[08:42:33] [INFO] [DEV] Installation skipped.
+[08:42:33] [INFO] Preparing Zoom
+[08:42:33] [INFO] Installer located.
+[08:42:33] [INFO] --------------------------------------------
+[08:42:33] [INFO] Application : Zoom
+[08:42:33] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\ZoomInstallerFull.exe
+[08:42:33] [INFO] Mode        : DEVELOPMENT
+[08:42:33] [INFO] Method      : StartProcess
+[08:42:33] [INFO] Arguments   : 
+[08:42:33] [INFO] [DEV] Installation skipped.
+[08:42:33] [INFO] Deployment Finished Successfully
+[08:49:52] [INFO] Configuration Loaded
+[08:49:52] [INFO] Version : 0.2
+[08:49:52] [INFO] Running in DEVELOPMENT MODE
+[08:49:52] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[08:49:52] [INFO] Deployment server reachable.
+[08:49:52] [INFO] Server validation completed.
+[08:54:19] [INFO] Configuration Loaded
+[08:54:19] [INFO] Version : 0.2
+[08:54:19] [INFO] Running in DEVELOPMENT MODE
+[08:54:19] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[08:54:19] [INFO] Deployment server reachable.
+[08:54:19] [INFO] Server validation completed.
+[08:55:17] [INFO] Application Closed.

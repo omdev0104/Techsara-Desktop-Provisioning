@@ -1,0 +1,62 @@
+{
+  "Settings": {
+    "Version": "0.2",
+    "DevelopmentMode": true
+  },
+
+  "Server": {
+    "Host": "192.168.9.59",
+    "Share": "FTP - Server",
+    "Folder": "Driver's"
+  },
+
+  "Applications": [
+    {
+      "Name": "Chrome",
+      "File": "ChromeSetup.exe",
+      "InstallMethod": "StartProcess",
+      "Arguments": "",
+      "WorkingDirectory": "",
+      "Type": "exe",
+      "Enabled": true,
+      "Required": true,
+      "Wait": true
+    },
+
+    {
+      "Name": "Google Drive",
+      "File": "GoogleDriveSetup.exe",
+      "InstallMethod": "StartProcess",
+      "Arguments": "",
+      "WorkingDirectory": "",
+      "Type": "exe",
+      "Enabled": true,
+      "Required": true,
+      "Wait": true
+    },
+
+    {
+      "Name": "Slack",
+      "File": "Slack.msix",
+      "InstallMethod": "Appx",
+      "Arguments": "",
+      "WorkingDirectory": "",
+      "Type": "msix",
+      "Enabled": true,
+      "Required": true,
+      "Wait": true
+    },
+
+    {
+      "Name": "Zoom",
+      "File": "ZoomInstallerFull.exe",
+      "InstallMethod": "StartProcess",
+      "Arguments": "",
+      "WorkingDirectory": "",
+      "Type": "exe",
+      "Enabled": true,
+      "Required": true,
+      "Wait": true
+    }
+  ]
+}
