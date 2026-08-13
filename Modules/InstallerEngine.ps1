@@ -1,5 +1,10 @@
-function Invoke-Installer
-{
+# ==========================================
+# Techsara Desktop Provisioning Utility
+# Installer Engine
+# ==========================================
+
+function Invoke-Installer {
+
     param(
         [Parameter(Mandatory)]
         $App,
@@ -11,64 +16,163 @@ function Invoke-Installer
         [bool]$DevelopmentMode
     )
 
+
     Write-DeployLog "--------------------------------------------"
     Write-DeployLog "Application : $($App.Name)"
     Write-DeployLog "Installer   : $Installer"
+    Write-DeployLog "Method      : $($App.InstallMethod)"
+    Write-DeployLog "Arguments   : $($App.Arguments)"
 
-    if ($DevelopmentMode)
-    {
+
+    # ==========================================
+    # DEVELOPMENT MODE
+    # ==========================================
+
+    if ($DevelopmentMode) {
+
         Write-DeployLog "Mode        : DEVELOPMENT"
-        Write-DeployLog "Method      : $($App.InstallMethod)"
-        Write-DeployLog "Arguments   : $($App.Arguments)"
         Write-DeployLog "[DEV] Installation skipped."
+        Write-DeployLog "--------------------------------------------"
 
-        return
+        return $true
     }
 
-    try
-    {
-        switch ($App.InstallMethod)
-        {
-            "StartProcess"
-            {
+
+    # ==========================================
+    # PRODUCTION MODE
+    # ==========================================
+
+    try {
+
+        switch ($App.InstallMethod) {
+
+
+            # ==================================
+            # EXE INSTALLER
+            # ==================================
+
+            "StartProcess" {
+
+                Write-DeployLog "Mode        : PRODUCTION"
                 Write-DeployLog "Launching installer..."
 
-                $process = Start-Process `
-                    -FilePath $Installer `
-                    -ArgumentList $App.Arguments `
-                    -Wait `
-                    -PassThru
 
-                if ($process.ExitCode -eq 0)
-                {
-                    Write-DeployLog "$($App.Name) installed successfully."
+                # ----------------------------------
+                # If Arguments is empty, launch the
+                # installer without -ArgumentList.
+                # ----------------------------------
+
+                if (
+                    $null -eq $App.Arguments -or
+                    [string]::IsNullOrWhiteSpace(
+                        [string]$App.Arguments
+                    )
+                ) {
+
+                    Write-DeployLog "No installer arguments specified."
+
+                    $process = Start-Process `
+                        -FilePath $Installer `
+                        -Wait `
+                        -PassThru `
+                        -ErrorAction Stop
+
                 }
-                else
-                {
-                    Write-DeployLog "$($App.Name) exited with code $($process.ExitCode)." "ERROR"
+                else {
+
+                    Write-DeployLog `
+                        "Using installer arguments: $($App.Arguments)"
+
+                    $process = Start-Process `
+                        -FilePath $Installer `
+                        -ArgumentList $App.Arguments `
+                        -Wait `
+                        -PassThru `
+                        -ErrorAction Stop
                 }
+
+
+                # ----------------------------------
+                # Capture Exit Code
+                # ----------------------------------
+
+                Write-DeployLog `
+                    "Installer exit code: $($process.ExitCode)"
+
+
+                if ($process.ExitCode -eq 0) {
+
+                    Write-DeployLog `
+                        "$($App.Name) installed successfully."
+
+                    return $true
+                }
+
+
+                Write-DeployLog `
+                    "$($App.Name) exited with code $($process.ExitCode)." `
+                    "ERROR"
+
+                return $false
             }
 
-            "Appx"
-            {
+
+            # ==================================
+            # MSIX / APPX
+            # ==================================
+
+            "Appx" {
+
+                Write-DeployLog "Mode        : PRODUCTION"
                 Write-DeployLog "Installing MSIX package..."
 
-                Add-AppxPackage $Installer
 
-                Write-DeployLog "$($App.Name) installed successfully."
+                Add-AppxPackage `
+                    -Path $Installer `
+                    -ErrorAction Stop
+
+
+                Write-DeployLog `
+                    "$($App.Name) installed successfully."
+
+
+                return $true
             }
 
-            default
-            {
-                Write-DeployLog "Unknown installation method: $($App.InstallMethod)" "ERROR"
+
+            # ==================================
+            # UNKNOWN INSTALLATION METHOD
+            # ==================================
+
+            default {
+
+                Write-DeployLog `
+                    "Unknown installation method: $($App.InstallMethod)" `
+                    "ERROR"
+
+                return $false
             }
         }
+
     }
-    catch
-    {
-        Write-DeployLog "$($App.Name) installation failed." "ERROR"
-        Write-DeployLog $_.Exception.Message "ERROR"
+    catch {
+
+        Write-DeployLog `
+            "$($App.Name) installation failed." `
+            "ERROR"
+
+
+        Write-DeployLog `
+            $_.Exception.Message `
+            "ERROR"
+
+
+        return $false
     }
 
-    Write-DeployLog "--------------------------------------------"
+    finally {
+
+        Write-DeployLog `
+            "--------------------------------------------"
+    }
 }

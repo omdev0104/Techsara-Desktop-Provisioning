@@ -1,0 +1,138 @@
+[13:48:44] [INFO] Configuration Loaded
+[13:48:44] [INFO] Version : 0.2
+[13:48:44] [INFO] Running in PRODUCTION MODE
+[13:48:44] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[13:48:44] [INFO] Server validation completed.
+[13:48:47] [INFO] Application Closed.
+[13:49:03] [INFO] Configuration Loaded
+[13:49:03] [INFO] Version : 0.2
+[13:49:03] [INFO] Running in PRODUCTION MODE
+[13:49:03] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[13:49:03] [INFO] Server validation completed.
+[13:49:11] [INFO] Application Closed.
+[13:50:59] [INFO] Configuration Loaded
+[13:50:59] [INFO] Version : 0.2
+[13:50:59] [INFO] Running in PRODUCTION MODE
+[13:50:59] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[13:50:59] [INFO] Server validation completed.
+[13:51:01] [INFO] Application Closed.
+[13:51:07] [INFO] Configuration Loaded
+[13:51:07] [INFO] Version : 0.2
+[13:51:07] [INFO] Running in PRODUCTION MODE
+[13:51:07] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[13:51:07] [INFO] Server validation completed.
+[13:51:08] [INFO] Application Closed.
+[13:53:04] [INFO] Configuration Loaded
+[13:53:04] [INFO] Version : 0.2
+[13:53:04] [INFO] Running in PRODUCTION MODE
+[13:53:04] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[13:53:04] [INFO] Server validation completed.
+[13:53:05] [INFO] Application Closed.
+[13:53:28] [INFO] Configuration Loaded
+[13:53:28] [INFO] Version : 0.2
+[13:53:28] [INFO] Running in PRODUCTION MODE
+[13:53:28] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[13:53:28] [INFO] Server validation completed.
+[13:53:29] [INFO] Application Closed.
+[13:54:06] [INFO] Configuration Loaded
+[13:54:06] [INFO] Version : 0.2
+[13:54:06] [INFO] Running in PRODUCTION MODE
+[13:54:06] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[13:54:06] [INFO] Server validation completed.
+[13:54:08] [INFO] Application Closed.
+[13:54:28] [INFO] Configuration Loaded
+[13:54:28] [INFO] Version : 0.2
+[13:54:28] [INFO] Running in PRODUCTION MODE
+[13:54:28] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[13:54:28] [INFO] Server validation completed.
+[13:54:30] [INFO] Application Closed.
+[13:55:22] [INFO] Configuration Loaded
+[13:55:22] [INFO] Version : 0.2
+[13:55:22] [INFO] Running in PRODUCTION MODE
+[13:55:22] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[13:55:22] [INFO] Server validation completed.
+[14:16:46] [INFO] Configuration Loaded
+[14:16:46] [INFO] Version : 0.2
+[14:16:46] [INFO] Running in PRODUCTION MODE
+[14:16:46] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[14:16:46] [INFO] Server validation completed.
+[14:16:53] [INFO] ============================================
+[14:16:53] [INFO] Deployment Manager Started
+[14:16:53] [INFO] Applications selected: 1
+[14:16:53] [INFO] Development Mode: False
+[14:16:53] [INFO] Server: \\192.168.9.59\FTP - Server\Driver's
+[14:16:53] [INFO] ============================================
+[14:16:53] [INFO] Preparing Chrome
+[14:16:53] [INFO] Installer path: \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[14:16:53] [INFO] Installer located.
+[14:16:53] [INFO] --------------------------------------------
+[14:16:53] [INFO] Application : Chrome
+[14:16:53] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[14:16:53] [INFO] Method      : StartProcess
+[14:16:53] [INFO] Arguments   : 
+[14:16:53] [INFO] Mode        : PRODUCTION
+[14:16:53] [INFO] Launching installer...
+[14:16:53] [INFO] No installer arguments specified.
+[14:19:06] [INFO] Application Closed.
+[14:19:09] [ERROR] Chrome installation failed.
+[14:19:09] [ERROR] This command cannot be run due to the error: The operation was canceled by the user.
+[14:19:09] [INFO] --------------------------------------------
+[14:19:09] [ERROR] Chrome deployment step failed.
+[14:19:09] [INFO] ============================================
+[14:19:09] [INFO] Deployment Manager Finished
+[14:19:09] [INFO] Successful : 0
+[14:19:09] [INFO] Failed     : 1
+[14:19:09] [INFO] ============================================
+[14:19:09] [INFO] Application Closed.
+[14:38:09] [INFO] Configuration Loaded
+[14:38:09] [INFO] Version : 0.2
+[14:38:09] [INFO] Running in PRODUCTION MODE
+[14:38:09] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[14:38:09] [INFO] Server validation completed.
+[14:38:20] [INFO] Application Closed.
+[14:47:43] [INFO] Configuration Loaded
+[14:47:43] [INFO] Version : 0.2
+[14:47:43] [INFO] Running in PRODUCTION MODE
+[14:47:43] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[14:47:43] [INFO] Server validation completed.
+[14:47:44] [INFO] Application Closed.
+[14:47:55] [INFO] Configuration Loaded
+[14:47:55] [INFO] Version : 0.2
+[14:47:55] [INFO] Running in PRODUCTION MODE
+[14:47:55] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[14:47:55] [INFO] Server validation completed.
+[14:47:56] [INFO] Application Closed.
+[14:48:05] [INFO] Configuration Loaded
+[14:48:05] [INFO] Version : 0.2
+[14:48:05] [INFO] Running in PRODUCTION MODE
+[14:48:05] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[14:48:05] [INFO] Server validation completed.
+[14:48:10] [INFO] ============================================
+[14:48:10] [INFO] Deployment Manager Started
+[14:48:10] [INFO] Applications selected: 1
+[14:48:10] [INFO] Development Mode: False
+[14:48:10] [INFO] Server: \\192.168.9.59\FTP - Server\Driver's
+[14:48:10] [INFO] ============================================
+[14:48:10] [INFO] Preparing Chrome
+[14:48:10] [INFO] Installer path: \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[14:48:10] [INFO] Installer located.
+[14:48:10] [INFO] --------------------------------------------
+[14:48:10] [INFO] Application : Chrome
+[14:48:10] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[14:48:10] [INFO] Method      : StartProcess
+[14:48:10] [INFO] Arguments   : 
+[14:48:10] [INFO] Mode        : PRODUCTION
+[14:48:10] [INFO] Launching installer...
+[14:48:10] [INFO] No installer arguments specified.
+[14:52:33] [INFO] Configuration Loaded
+[14:52:33] [INFO] Version : 0.2
+[14:52:33] [INFO] Running in PRODUCTION MODE
+[14:52:33] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[14:52:33] [INFO] Server validation completed.
+[14:52:35] [INFO] Application Closed.
+[14:53:46] [INFO] Configuration Loaded
+[14:53:46] [INFO] Version : 0.2
+[14:53:46] [INFO] Running in PRODUCTION MODE
+[14:53:46] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[14:53:46] [INFO] Server validation completed.
+[14:53:47] [INFO] Application Closed.

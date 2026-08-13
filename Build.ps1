@@ -14,6 +14,7 @@ Clear-Host
 . "$PSScriptRoot\Modules\InstallerEngine.ps1"
 . "$PSScriptRoot\Modules\Install.ps1"
 . "$PSScriptRoot\Modules\UI.ps1"
+. "$PSScriptRoot\Modules\DeploymentManager.ps1"
 
 Write-Host ""
 Write-Host "==============================================="
@@ -85,6 +86,6 @@ Write-DeployLog "Server validation completed."
 # Launch GUI
 # ==========================================
 
-Show-MainWindow
+Show-MainWindow -DevelopmentMode $DevelopmentMode
 
 Write-DeployLog "Application Closed."

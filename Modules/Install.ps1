@@ -1,40 +1,33 @@
-function Install-Application
-{
+# Techsara Desktop Provisioning Utility - Application Installation Module
+
+function Install-Application {
     param(
-        [Parameter(Mandatory)]
-        $App,
-
-        [Parameter(Mandatory)]
-        [string]$ServerPath,
-
-        [Parameter(Mandatory)]
-        [bool]$DevelopmentMode
+        [Parameter(Mandatory)] $App,
+        [Parameter(Mandatory)] [string]$ServerPath,
+        [Parameter(Mandatory)] [bool]$DevelopmentMode
     )
 
     Write-DeployLog "Preparing $($App.Name)"
-
-    # Build full installer path
     $Installer = Join-Path $ServerPath $App.File
+    Write-DeployLog "Installer path: $Installer"
 
-    # Verify installer exists
-    if (!(Test-Path $Installer))
-    {
+    if (-not (Test-Path -LiteralPath $Installer)) {
         Write-DeployLog "$($App.Name) installer not found." "ERROR"
-        return
+        return $false
     }
 
     Write-DeployLog "Installer located."
 
-    # Skip disabled applications
-    if (-not $App.Enabled)
-    {
+    if (-not $App.Enabled) {
         Write-DeployLog "$($App.Name) is disabled. Skipping."
-        return
+        return $true
     }
 
-    # Pass installation to installer engine
-    Invoke-Installer `
-        -App $App `
-        -Installer $Installer `
-        -DevelopmentMode $DevelopmentMode
+    try {
+        return [bool](Invoke-Installer -App $App -Installer $Installer -DevelopmentMode $DevelopmentMode)
+    } catch {
+        Write-DeployLog "$($App.Name) installation wrapper failed." "ERROR"
+        Write-DeployLog $_.Exception.Message "ERROR"
+        return $false
+    }
 }

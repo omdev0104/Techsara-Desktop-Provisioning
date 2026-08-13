@@ -1,7 +1,7 @@
 {
   "Settings": {
     "Version": "0.2",
-    "DevelopmentMode": true
+    "DevelopmentMode": false
   },
 
   "Server": {

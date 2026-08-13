@@ -1,0 +1,2 @@
+C:\TechSara\TechsaraLauncher\bin\Release\net10.0-windows\win-x64\publish\Techsara Deployment.pdb
+C:\TechSara\TechsaraLauncher\bin\Release\net10.0-windows\win-x64\publish\Techsara Deployment.exe

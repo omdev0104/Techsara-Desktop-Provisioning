@@ -188,3 +188,374 @@
 [11:12:40] [INFO] Running in DEVELOPMENT MODE
 [11:12:40] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
 [11:12:40] [ERROR] Deployment Aborted.
+[11:30:02] [INFO] Configuration Loaded
+[11:30:02] [INFO] Version : 0.2
+[11:30:02] [INFO] Running in DEVELOPMENT MODE
+[11:30:02] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[11:30:02] [INFO] Server validation completed.
+[11:32:39] [INFO] ============================================
+[11:32:39] [INFO] Deployment Manager Started
+[11:32:39] [INFO] Applications selected: 1
+[11:32:39] [INFO] Development Mode: True
+[11:32:39] [INFO] Server: \\192.168.9.59\FTP - Server\Driver's
+[11:32:39] [INFO] ============================================
+[11:32:39] [INFO] Preparing Chrome
+[11:32:39] [INFO] Installer path: \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[11:32:39] [INFO] Installer located.
+[11:32:39] [INFO] --------------------------------------------
+[11:32:39] [INFO] Application : Chrome
+[11:32:39] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[11:32:39] [INFO] Method      : StartProcess
+[11:32:39] [INFO] Arguments   : 
+[11:32:39] [INFO] Mode        : DEVELOPMENT
+[11:32:39] [INFO] [DEV] Installation skipped.
+[11:32:39] [INFO] --------------------------------------------
+[11:32:39] [INFO] Chrome deployment step completed.
+[11:32:39] [INFO] ============================================
+[11:32:39] [INFO] Deployment Manager Finished
+[11:32:39] [INFO] Successful : 1
+[11:32:39] [INFO] Failed     : 0
+[11:32:39] [INFO] ============================================
+[11:33:34] [INFO] Application Closed.
+[11:35:23] [INFO] Configuration Loaded
+[11:35:23] [INFO] Version : 0.2
+[11:35:23] [INFO] Running in PRODUCTION MODE
+[11:35:23] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[11:35:23] [INFO] Server validation completed.
+[11:35:36] [INFO] ============================================
+[11:35:36] [INFO] Deployment Manager Started
+[11:35:36] [INFO] Applications selected: 1
+[11:35:36] [INFO] Development Mode: True
+[11:35:36] [INFO] Server: \\192.168.9.59\FTP - Server\Driver's
+[11:35:36] [INFO] ============================================
+[11:35:36] [INFO] Preparing Chrome
+[11:35:36] [INFO] Installer path: \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[11:35:36] [INFO] Installer located.
+[11:35:36] [INFO] --------------------------------------------
+[11:35:36] [INFO] Application : Chrome
+[11:35:36] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[11:35:36] [INFO] Method      : StartProcess
+[11:35:36] [INFO] Arguments   : 
+[11:35:36] [INFO] Mode        : DEVELOPMENT
+[11:35:36] [INFO] [DEV] Installation skipped.
+[11:35:36] [INFO] --------------------------------------------
+[11:35:36] [INFO] Chrome deployment step completed.
+[11:35:36] [INFO] ============================================
+[11:35:36] [INFO] Deployment Manager Finished
+[11:35:36] [INFO] Successful : 1
+[11:35:36] [INFO] Failed     : 0
+[11:35:36] [INFO] ============================================
+[11:36:04] [INFO] Application Closed.
+[11:36:26] [INFO] Configuration Loaded
+[11:36:26] [INFO] Version : 0.2
+[11:36:26] [INFO] Running in PRODUCTION MODE
+[11:36:26] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[11:36:26] [INFO] Server validation completed.
+[11:36:33] [INFO] ============================================
+[11:36:33] [INFO] Deployment Manager Started
+[11:36:33] [INFO] Applications selected: 1
+[11:36:33] [INFO] Development Mode: True
+[11:36:33] [INFO] Server: \\192.168.9.59\FTP - Server\Driver's
+[11:36:33] [INFO] ============================================
+[11:36:33] [INFO] Preparing Chrome
+[11:36:33] [INFO] Installer path: \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[11:36:33] [INFO] Installer located.
+[11:36:33] [INFO] --------------------------------------------
+[11:36:33] [INFO] Application : Chrome
+[11:36:33] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[11:36:33] [INFO] Method      : StartProcess
+[11:36:33] [INFO] Arguments   : 
+[11:36:33] [INFO] Mode        : DEVELOPMENT
+[11:36:33] [INFO] [DEV] Installation skipped.
+[11:36:33] [INFO] --------------------------------------------
+[11:36:33] [INFO] Chrome deployment step completed.
+[11:36:33] [INFO] ============================================
+[11:36:33] [INFO] Deployment Manager Finished
+[11:36:33] [INFO] Successful : 1
+[11:36:33] [INFO] Failed     : 0
+[11:36:33] [INFO] ============================================
+[11:36:49] [INFO] Application Closed.
+[11:38:34] [INFO] Configuration Loaded
+[11:38:34] [INFO] Version : 0.2
+[11:38:34] [INFO] Running in PRODUCTION MODE
+[11:38:34] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[11:38:34] [INFO] Server validation completed.
+[11:38:37] [INFO] ============================================
+[11:38:37] [INFO] Deployment Manager Started
+[11:38:37] [INFO] Applications selected: 1
+[11:38:37] [INFO] Development Mode: True
+[11:38:37] [INFO] Server: \\192.168.9.59\FTP - Server\Driver's
+[11:38:37] [INFO] ============================================
+[11:38:37] [INFO] Preparing Chrome
+[11:38:37] [INFO] Installer path: \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[11:38:37] [INFO] Installer located.
+[11:38:37] [INFO] --------------------------------------------
+[11:38:37] [INFO] Application : Chrome
+[11:38:37] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[11:38:37] [INFO] Method      : StartProcess
+[11:38:38] [INFO] Arguments   : 
+[11:38:38] [INFO] Mode        : DEVELOPMENT
+[11:38:38] [INFO] [DEV] Installation skipped.
+[11:38:38] [INFO] --------------------------------------------
+[11:38:38] [INFO] Chrome deployment step completed.
+[11:38:38] [INFO] ============================================
+[11:38:38] [INFO] Deployment Manager Finished
+[11:38:38] [INFO] Successful : 1
+[11:38:38] [INFO] Failed     : 0
+[11:38:38] [INFO] ============================================
+[11:41:25] [INFO] Configuration Loaded
+[11:41:25] [INFO] Version : 0.2
+[11:41:25] [INFO] Running in PRODUCTION MODE
+[11:41:25] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[11:41:25] [INFO] Server validation completed.
+[11:41:29] [INFO] ============================================
+[11:41:29] [INFO] Deployment Manager Started
+[11:41:29] [INFO] Applications selected: 1
+[11:41:29] [INFO] Development Mode: False
+[11:41:29] [INFO] Server: \\192.168.9.59\FTP - Server\Driver's
+[11:41:29] [INFO] ============================================
+[11:41:29] [INFO] Preparing Chrome
+[11:41:29] [INFO] Installer path: \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[11:41:29] [INFO] Installer located.
+[11:41:29] [INFO] --------------------------------------------
+[11:41:29] [INFO] Application : Chrome
+[11:41:29] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[11:41:29] [INFO] Method      : StartProcess
+[11:41:29] [INFO] Arguments   : 
+[11:41:29] [INFO] Mode        : PRODUCTION
+[11:41:29] [INFO] Launching installer...
+[11:41:29] [ERROR] Chrome installation failed.
+[11:41:29] [ERROR] Cannot validate argument on parameter 'ArgumentList'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again.
+[11:41:29] [INFO] --------------------------------------------
+[11:41:29] [ERROR] Chrome deployment step failed.
+[11:41:29] [INFO] ============================================
+[11:41:29] [INFO] Deployment Manager Finished
+[11:41:29] [INFO] Successful : 0
+[11:41:29] [INFO] Failed     : 1
+[11:41:29] [INFO] ============================================
+[11:41:44] [INFO] Application Closed.
+[11:44:55] [INFO] Configuration Loaded
+[11:44:55] [INFO] Version : 0.2
+[11:44:55] [INFO] Running in PRODUCTION MODE
+[11:44:55] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[11:44:55] [INFO] Server validation completed.
+[11:45:04] [INFO] ============================================
+[11:45:04] [INFO] Deployment Manager Started
+[11:45:04] [INFO] Applications selected: 1
+[11:45:04] [INFO] Development Mode: False
+[11:45:04] [INFO] Server: \\192.168.9.59\FTP - Server\Driver's
+[11:45:04] [INFO] ============================================
+[11:45:04] [INFO] Preparing Chrome
+[11:45:04] [INFO] Installer path: \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[11:45:04] [INFO] Installer located.
+[11:45:04] [INFO] --------------------------------------------
+[11:45:04] [INFO] Application : Chrome
+[11:45:04] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[11:45:04] [INFO] Method      : StartProcess
+[11:45:04] [INFO] Arguments   : 
+[11:45:04] [INFO] Mode        : PRODUCTION
+[11:45:04] [INFO] Launching installer...
+[11:45:04] [INFO] No installer arguments specified.
+[11:46:13] [INFO] Installer exit code: 3
+[11:46:13] [ERROR] Chrome exited with code 3.
+[11:46:13] [INFO] --------------------------------------------
+[11:46:13] [ERROR] Chrome deployment step failed.
+[11:46:13] [INFO] ============================================
+[11:46:13] [INFO] Deployment Manager Finished
+[11:46:13] [INFO] Successful : 0
+[11:46:13] [INFO] Failed     : 1
+[11:46:13] [INFO] ============================================
+[11:47:12] [INFO] ============================================
+[11:47:12] [INFO] Deployment Manager Started
+[11:47:12] [INFO] Applications selected: 1
+[11:47:12] [INFO] Development Mode: False
+[11:47:12] [INFO] Server: \\192.168.9.59\FTP - Server\Driver's
+[11:47:12] [INFO] ============================================
+[11:47:12] [INFO] Preparing Chrome
+[11:47:12] [INFO] Installer path: \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[11:47:12] [INFO] Installer located.
+[11:47:12] [INFO] --------------------------------------------
+[11:47:12] [INFO] Application : Chrome
+[11:47:12] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[11:47:12] [INFO] Method      : StartProcess
+[11:47:12] [INFO] Arguments   : 
+[11:47:12] [INFO] Mode        : PRODUCTION
+[11:47:12] [INFO] Launching installer...
+[11:47:12] [INFO] No installer arguments specified.
+[11:47:50] [INFO] Installer exit code: 0
+[11:47:50] [INFO] Chrome installed successfully.
+[11:47:50] [INFO] --------------------------------------------
+[11:47:50] [INFO] Chrome deployment step completed.
+[11:47:50] [INFO] ============================================
+[11:47:50] [INFO] Deployment Manager Finished
+[11:47:50] [INFO] Successful : 1
+[11:47:50] [INFO] Failed     : 0
+[11:47:50] [INFO] ============================================
+[11:48:52] [INFO] ============================================
+[11:48:52] [INFO] Deployment Manager Started
+[11:48:52] [INFO] Applications selected: 3
+[11:48:52] [INFO] Development Mode: False
+[11:48:52] [INFO] Server: \\192.168.9.59\FTP - Server\Driver's
+[11:48:52] [INFO] ============================================
+[11:48:52] [INFO] Preparing Google Drive
+[11:48:52] [INFO] Installer path: \\192.168.9.59\FTP - Server\Driver's\GoogleDriveSetup.exe
+[11:48:52] [INFO] Installer located.
+[11:48:52] [INFO] --------------------------------------------
+[11:48:52] [INFO] Application : Google Drive
+[11:48:52] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\GoogleDriveSetup.exe
+[11:48:52] [INFO] Method      : StartProcess
+[11:48:52] [INFO] Arguments   : 
+[11:48:52] [INFO] Mode        : PRODUCTION
+[11:48:52] [INFO] Launching installer...
+[11:48:52] [INFO] No installer arguments specified.
+[11:49:15] [INFO] Installer exit code: 1603
+[11:49:15] [ERROR] Google Drive exited with code 1603.
+[11:49:15] [INFO] --------------------------------------------
+[11:49:15] [ERROR] Google Drive deployment step failed.
+[11:49:15] [INFO] Preparing Slack
+[11:49:15] [INFO] Installer path: \\192.168.9.59\FTP - Server\Driver's\Slack.msix
+[11:49:15] [INFO] Installer located.
+[11:49:15] [INFO] --------------------------------------------
+[11:49:15] [INFO] Application : Slack
+[11:49:15] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\Slack.msix
+[11:49:15] [INFO] Method      : Appx
+[11:49:15] [INFO] Arguments   : 
+[11:49:15] [INFO] Mode        : PRODUCTION
+[11:49:15] [INFO] Installing MSIX package...
+[11:49:21] [ERROR] Slack installation failed.
+[11:49:21] [ERROR] Deployment failed with HRESULT: 0x80073D02, The package could not be installed because resources it modifies are currently in use.
+
+error 0x80073D02: Unable to install because the following apps need to be closed com.tinyspeck.slackdesktop_4.51.180.0_x64__8yrtsj140pw4g.
+
+NOTE: For additional information, look for [ActivityId] b7489ecb-28f1-0002-d4d2-4db7f128dd01 in the Event Log or use the command line Get-AppPackageLog -ActivityID b7489ecb-28f1-0002-d4d2-4db7f128dd01
+
+[11:49:21] [INFO] --------------------------------------------
+[11:49:21] [ERROR] Slack deployment step failed.
+[11:49:21] [INFO] Preparing Zoom
+[11:49:21] [INFO] Installer path: \\192.168.9.59\FTP - Server\Driver's\ZoomInstallerFull.exe
+[11:49:21] [INFO] Installer located.
+[11:49:21] [INFO] --------------------------------------------
+[11:49:21] [INFO] Application : Zoom
+[11:49:21] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\ZoomInstallerFull.exe
+[11:49:21] [INFO] Method      : StartProcess
+[11:49:21] [INFO] Arguments   : 
+[11:49:21] [INFO] Mode        : PRODUCTION
+[11:49:21] [INFO] Launching installer...
+[11:49:21] [INFO] No installer arguments specified.
+[11:49:38] [INFO] Installer exit code: 0
+[11:49:38] [INFO] Zoom installed successfully.
+[11:49:38] [INFO] --------------------------------------------
+[11:49:38] [INFO] Zoom deployment step completed.
+[11:49:38] [INFO] ============================================
+[11:49:38] [INFO] Deployment Manager Finished
+[11:49:38] [INFO] Successful : 1
+[11:49:38] [INFO] Failed     : 2
+[11:49:38] [INFO] ============================================
+[11:49:41] [INFO] Application Closed.
+[12:11:27] [INFO] Configuration Loaded
+[12:11:27] [INFO] Version : 0.2
+[12:11:28] [INFO] Running in PRODUCTION MODE
+[12:11:28] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[12:11:28] [INFO] Server validation completed.
+[12:11:43] [INFO] ============================================
+[12:11:43] [INFO] Deployment Manager Started
+[12:11:43] [INFO] Applications selected: 4
+[12:11:43] [INFO] Development Mode: False
+[12:11:43] [INFO] Server: \\192.168.9.59\FTP - Server\Driver's
+[12:11:43] [INFO] ============================================
+[12:11:43] [INFO] Preparing Chrome
+[12:11:43] [INFO] Installer path: \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[12:11:43] [INFO] Installer located.
+[12:11:43] [INFO] --------------------------------------------
+[12:11:43] [INFO] Application : Chrome
+[12:11:43] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\ChromeSetup.exe
+[12:11:43] [INFO] Method      : StartProcess
+[12:11:43] [INFO] Arguments   : 
+[12:11:43] [INFO] Mode        : PRODUCTION
+[12:11:43] [INFO] Launching installer...
+[12:11:43] [INFO] No installer arguments specified.
+[12:12:20] [INFO] Installer exit code: 0
+[12:12:20] [INFO] Chrome installed successfully.
+[12:12:20] [INFO] --------------------------------------------
+[12:12:20] [INFO] Chrome deployment step completed.
+[12:12:20] [INFO] Preparing Google Drive
+[12:12:20] [INFO] Installer path: \\192.168.9.59\FTP - Server\Driver's\GoogleDriveSetup.exe
+[12:12:20] [INFO] Installer located.
+[12:12:20] [INFO] --------------------------------------------
+[12:12:20] [INFO] Application : Google Drive
+[12:12:20] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\GoogleDriveSetup.exe
+[12:12:20] [INFO] Method      : StartProcess
+[12:12:20] [INFO] Arguments   : 
+[12:12:20] [INFO] Mode        : PRODUCTION
+[12:12:20] [INFO] Launching installer...
+[12:12:20] [INFO] No installer arguments specified.
+[12:13:36] [ERROR] Google Drive installation failed.
+[12:13:36] [ERROR] This command cannot be run due to the error: The operation was canceled by the user.
+[12:13:36] [INFO] --------------------------------------------
+[12:13:36] [ERROR] Google Drive deployment step failed.
+[12:13:36] [INFO] Preparing Slack
+[12:13:36] [INFO] Installer path: \\192.168.9.59\FTP - Server\Driver's\Slack.msix
+[12:13:36] [INFO] Installer located.
+[12:13:36] [INFO] --------------------------------------------
+[12:13:36] [INFO] Application : Slack
+[12:13:36] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\Slack.msix
+[12:13:36] [INFO] Method      : Appx
+[12:13:36] [INFO] Arguments   : 
+[12:13:36] [INFO] Mode        : PRODUCTION
+[12:13:36] [INFO] Installing MSIX package...
+[12:13:42] [ERROR] Slack installation failed.
+[12:13:42] [ERROR] Deployment failed with HRESULT: 0x80073D02, The package could not be installed because resources it modifies are currently in use.
+
+error 0x80073D02: Unable to install because the following apps need to be closed com.tinyspeck.slackdesktop_4.51.180.0_x64__8yrtsj140pw4g.
+
+NOTE: For additional information, look for [ActivityId] b7489ecb-28f1-0000-7368-4eb7f128dd01 in the Event Log or use the command line Get-AppPackageLog -ActivityID b7489ecb-28f1-0000-7368-4eb7f128dd01
+
+[12:13:42] [INFO] --------------------------------------------
+[12:13:42] [ERROR] Slack deployment step failed.
+[12:13:42] [INFO] Preparing Zoom
+[12:13:42] [INFO] Installer path: \\192.168.9.59\FTP - Server\Driver's\ZoomInstallerFull.exe
+[12:13:42] [INFO] Installer located.
+[12:13:42] [INFO] --------------------------------------------
+[12:13:42] [INFO] Application : Zoom
+[12:13:42] [INFO] Installer   : \\192.168.9.59\FTP - Server\Driver's\ZoomInstallerFull.exe
+[12:13:42] [INFO] Method      : StartProcess
+[12:13:42] [INFO] Arguments   : 
+[12:13:42] [INFO] Mode        : PRODUCTION
+[12:13:42] [INFO] Launching installer...
+[12:13:42] [INFO] No installer arguments specified.
+[12:14:35] [ERROR] Zoom installation failed.
+[12:14:35] [ERROR] This command cannot be run due to the error: The operation was canceled by the user.
+[12:14:35] [INFO] --------------------------------------------
+[12:14:35] [ERROR] Zoom deployment step failed.
+[12:14:35] [INFO] ============================================
+[12:14:35] [INFO] Deployment Manager Finished
+[12:14:35] [INFO] Successful : 1
+[12:14:35] [INFO] Failed     : 3
+[12:14:35] [INFO] ============================================
+[12:19:16] [INFO] Application Closed.
+[12:20:43] [INFO] Configuration Loaded
+[12:20:43] [INFO] Version : 0.2
+[12:20:43] [INFO] Running in PRODUCTION MODE
+[12:20:43] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[12:20:43] [ERROR] Deployment Aborted.
+[12:20:48] [INFO] Configuration Loaded
+[12:20:48] [INFO] Version : 0.2
+[12:20:48] [INFO] Running in PRODUCTION MODE
+[12:20:48] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[12:20:48] [ERROR] Deployment Aborted.
+[12:20:56] [INFO] Configuration Loaded
+[12:20:56] [INFO] Version : 0.2
+[12:20:56] [INFO] Running in PRODUCTION MODE
+[12:20:56] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[12:20:59] [ERROR] Deployment Aborted.
+[12:21:06] [INFO] Configuration Loaded
+[12:21:06] [INFO] Version : 0.2
+[12:21:06] [INFO] Running in PRODUCTION MODE
+[12:21:06] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[12:21:06] [ERROR] Deployment Aborted.
+[12:21:24] [INFO] Configuration Loaded
+[12:21:24] [INFO] Version : 0.2
+[12:21:24] [INFO] Running in PRODUCTION MODE
+[12:21:24] [INFO] Deployment Server : \\192.168.9.59\FTP - Server\Driver's
+[12:21:24] [INFO] Server validation completed.
+[12:21:31] [INFO] Application Closed.
